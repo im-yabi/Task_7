@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <form>
+      <legend style="color: brown">
+      </legend>
+      <form>
+        <b><h3>Name*</h3></b>
+        <label for="first-name"></label>
+        <input
+          type="text" size="45vh" 
+          required
+          name="first-name"
+          placeholder="First Name"
+          <div class="invalid-feedback"></div>
+          
+          <label for="last-name"></label>
+          <input
+            type="text" size="45vh"
+            required
+            name="last-name"
+            placeholder="last Name"
+            <div class="invalid-feedback"> </div>
+       
+        <br>
+        <br>
+        <b><h3>Email*</h3></b>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"></label>
+             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" size="95vh" >
+          </div>
+          <div class="invalid-feedback"></div>
+          
+  
+    
+<!-- rating star -->
+<h3>Your Experience*</h3>
+<div class="rate">
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4" />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3" />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2" />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1" />
+    <label for="star1" title="text">1 star</label>
+  </div>
+  <br><br>
+
+<h5> overall how would you rate you experience with us?</h5>
+
+  <h3>How satisfied are you with*</h3>
+  <table class="table" border="0" cellspacing="0" cellpadding="10">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">very unsatisfied</th>
+        <th scope="col">unsatisfied</th>
+        <th scope="col">neutral</th>
+        <th scope="col">satisfied</th>
+        <th scope="col">very satisfied</th>
+
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+        <td>Purchase</td>
+        <td><input type="radio" name="radio1"></td>
+        <td><input type="radio" name="radio1"></td>
+        <td><input type="radio" name="radio1"></td>
+        <td><input type="radio" name="radio1"></td>
+        <td><input type="radio" name="radio1"></td>
+
+      </tr>
+      <tr>
+        <td>Service</td>
+        <td><input type="radio" name="radio2"></td>
+        <td><input type="radio" name="radio2"></td>
+        <td><input type="radio" name="radio2"></td>
+        <td><input type="radio" name="radio2"></td>
+        <td><input type="radio" name="radio2"></td>
+      </tr>
+      <tr>
+      
+       
+        <td colspan>Company</td>
+        <td><input type="radio" name="radio3"></td>
+        <td><input type="radio" name="radio3"></td>
+        <td><input type="radio" name="radio3"></td>
+        <td><input type="radio" name="radio3"></td>
+        <td><input type="radio" name="radio3"></td>
+     
+    </tbody>
+  </table>
+<h3>How likely are you to*</h3>
+<table class="table" border="0" cellspacing="0" cellpadding="10">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Very unlikely</th>
+        <th scope="col">Unlikely</th>
+        <th scope="col">Netural</th>
+        <th scope="col">Likely</th>
+        <th scope="col">Very Likey</th>
+
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        
+        <td>Buy form us again</td>
+        <td><input type="radio" name="radio4"></td>
+        <td><input type="radio" name="radio4"></td>
+        <td><input type="radio" name="radio4"></td>
+        <td><input type="radio" name="radio4"></td>
+        <td><input type="radio" name="radio4"></td>
+
+      </tr>
+      <tr>
+        <td>Recommend our product to others</td>
+        <td><input type="radio" name="radio5"></td>
+        <td><input type="radio" name="radio5"></td>
+        <td><input type="radio" name="radio5"></td>
+        <td><input type="radio" name="radio5"></td>
+        <td><input type="radio" name="radio5"></td>
+      </tr>
+      <tr>
+       
+        <td colspan>recommend ourcompany to others</td>
+        <td><input type="radio" name="radio6"></td>
+        <td><input type="radio" name="radio6"></td>
+        <td><input type="radio" name="radio6"></td>
+        <td><input type="radio" name="radio6"></td>
+        <td><input type="radio" name="radio6"></td>
+    </tbody>
+  </table>
+  <h3>Additional comments or suggestions</h3>
+  <form class="was-validated">
+    <div class="mb-3">
+      <label for="validationTextarea" class="form-label"></label>
+      <textarea class="form-control" id="validationTextarea" required></textarea>
+      <div class="invalid-feedback">
+        Please enter your Feedbacks.
+        <br><br>
+        <div class="invalid-feedback">
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-dark" type="submit">Submit</button>
+      </div>
+    </form>
+
+</body>
+</html>
